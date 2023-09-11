@@ -1,0 +1,66 @@
+.blog {
+    width: 845px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+}
+
+.blog h2 {
+    text-align: start;
+}
+
+.blog img {
+    width: 845px;
+    height: 450px;
+    border-radius: 8px;
+    border: 1px solid #747bff;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-details {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 34px 0px 16px;
+}
+
+.author-name {
+    margin: 0;
+    font-size: 24px;
+}
+
+.publish-date {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(17, 17, 17, 0.60);
+}
+
+.author-details img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.bookmark {
+    display: flex;
+}
+
+.btn-bookmark {
+    border: none;
+    font-size: 20px;
+
+}
+
+.btn-bookmark:hover {
+    color: #747bff;
+    cursor: pointer;
+}
+
+.btn-bookmark:active {
+    color: black;
+}

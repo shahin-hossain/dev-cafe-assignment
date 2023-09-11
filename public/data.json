@@ -5,9 +5,9 @@
             "name": "John Doe",
             "image": "https://miro.medium.com/v2/resize:fill:176:176/1*27YkCX7s3981lWmGWiiPOg.png"
         },
-        "title": "Bye-bye useState & useEffect: Revolutionizing React Development!",
+        "title": "25 Tips I Wish I Knew Before I Started to Code",
         "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*lA-_v4GToxBmh1v7D7xk3A.jpeg",
-        "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*lA-_v4GToxBmh1v7D7xk3A.jpeg",
+        "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*mNDhcR0ZWj10tuW5.jpg",
         "readTime": 10,
         "publishDate": "2023-09-10"
     },

@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Blog.css'
+import Content from '../Content/Content';
+import Bookmarks from '../Bookmarks/Bookmarks';
 const Blog = () => {
+    const [blogs, setBlogs] = useState([]);
+    const [bookmarks, setBookmarks] = useState([]);
+
+
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
     return (
-        <div className='blog'>
+        <div className='blogs'>
             <div>
-                <h1>Blog Content</h1>
+                {blogs.map(blog => <Content blog={blog} key={blog.id}></Content>)}
             </div>
             <div>
-                <h2>Bookmark Content</h2>
+                <Bookmarks></Bookmarks>
             </div>
         </div>
     );
