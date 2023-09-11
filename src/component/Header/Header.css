@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px 15px;
+}
+
+.logo {
+    color: #747bff;
+}
+
+
+.manu {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.manu a {
+    margin-left: 20px;
+    font-size: 20px;
+}
