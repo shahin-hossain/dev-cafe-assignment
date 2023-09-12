@@ -9,7 +9,7 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*lA-_v4GToxBmh1v7D7xk3A.jpeg",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*mNDhcR0ZWj10tuW5.jpg",
         "readTime": 10,
-        "publishDate": "2023-09-10"
+        "publishDate": "2023-Sep-10"
     },
     {
         "id": "64fdd82f554e4b79be4af21c",
@@ -21,7 +21,7 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/0*uLADSgUDsUxMMarV",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/0*uLADSgUDsUxMMarV",
         "readTime": 8,
-        "publishDate": "2023-09-09"
+        "publishDate": "2023-Sep-09"
     },
     {
         "id": "64fdd82fe63146ff024d9a27",
@@ -33,7 +33,7 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BXcfMU3SbAWzBe1LVvZRug.png",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BXcfMU3SbAWzBe1LVvZRug.png",
         "readTime": 15,
-        "publishDate": "2023-09-08"
+        "publishDate": "2023-Sep-08"
     },
     {
         "id": "64fdd82fcd1b4d4a5125da25",
@@ -45,6 +45,6 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/1*0xDGBNrA1WtfSfYY3FJOdw.gif",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/1*0xDGBNrA1WtfSfYY3FJOdw.gif",
         "readTime": 12,
-        "publishDate": "2023-09-07"
+        "publishDate": "2023-Sep-07"
     }
 ]

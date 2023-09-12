@@ -1,5 +1,15 @@
 .blogs {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
     gap: 20px;
+}
+
+.spent-read-time {
+    border: 1px solid #747bff;
+    padding: 21px 30px 21px 30px;
+    border-radius: 8px;
+    color: #747bff;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }

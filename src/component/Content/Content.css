@@ -1,8 +1,11 @@
 .blog {
-    width: 845px;
+
     box-sizing: border-box;
     margin-bottom: 40px;
-
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(17, 17, 17, 0.2);
+    box-sizing: border-box;
 }
 
 .blog h2 {
@@ -13,7 +16,7 @@
     width: 845px;
     height: 450px;
     border-radius: 8px;
-    border: 1px solid #747bff;
+    box-sizing: border-box;
 }
 
 .author-info {

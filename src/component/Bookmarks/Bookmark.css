@@ -1,0 +1,17 @@
+.bookmark-container {
+    background: rgba(17, 17, 17, 0.15);
+    border-radius: 8px;
+    padding: 10px 30px 30px 30px;
+
+}
+
+.bookmark-blogs {
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+
+    height: 98px;
+    padding: 20px;
+    align-content: center;
+}
