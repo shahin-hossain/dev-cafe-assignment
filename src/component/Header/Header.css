@@ -17,11 +17,15 @@
     display: flex;
     align-items: center;
     gap: 20px;
-
-
 }
 
 .manu a {
     margin-left: 20px;
     font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .manu {
+        display: none;
+    }
 }

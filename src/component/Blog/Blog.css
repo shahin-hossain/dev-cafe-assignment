@@ -13,3 +13,11 @@
     top: 0;
     background-color: #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

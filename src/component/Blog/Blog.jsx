@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Blog.css'
 import Content from '../Content/Content';
 import Bookmarks from '../Bookmarks/Bookmarks';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Blog = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmarks, setBookmarks] = useState([]); //bookmark added state
@@ -19,9 +21,16 @@ const Blog = () => {
 
         if (newBookmark !== oldBookmark) {
             setBookmarks([...bookmarks, newBookmark]);
+            toast.success('Bookmark Added', { //success toast
+                position: 'bottom-right',
+                hideProgressBar: true,
+            })
         }
         else {
-            alert('This Blog is Already Booked')
+            toast.warn('You Have Already Bookmarked This Blog', { //warning toast
+                position: 'bottom-right',
+                hideProgressBar: true,
+            })
         }
     }
     //spend Time Function from ( Mark as read) button
@@ -39,6 +48,7 @@ const Blog = () => {
                 <h2 className='spent-read-time'>Spent time on read: {min} min</h2>
 
                 <Bookmarks bookmarks={bookmarks}></Bookmarks>
+                <ToastContainer />
             </div>
         </div>
     );
