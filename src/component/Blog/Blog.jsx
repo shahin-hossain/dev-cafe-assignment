@@ -8,11 +8,18 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmarks, setBookmarks] = useState([]); //bookmark added state
     const [min, setMin] = useState(0); // spend time state
+    const [blog, setBlog] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
+    }, [])
+
+    useEffect(() => {
+        fetch('blog.json')
+            .then(res => res.json())
+            .then(data => setBlog(data))
     }, [])
     // bookmark handle function
     const bookmarkHandle = (blogItem) => {
@@ -43,6 +50,7 @@ const Blog = () => {
         <div className='blogs'>
             <div>
                 {blogs.map(blog => <Content blog={blog} key={blog.id} bookmarkHandle={bookmarkHandle} spentTimeHandle={spentTimeHandle}></Content>)}
+
             </div>
             <div>
                 <h2 className='spent-read-time'>Spent time on read: {min} min</h2>

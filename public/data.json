@@ -9,7 +9,8 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*lA-_v4GToxBmh1v7D7xk3A.jpeg",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*mNDhcR0ZWj10tuW5.jpg",
         "readTime": 10,
-        "publishDate": "2023-Sep-10"
+        "publishDate": "2023-Sep-10",
+        "blogs": ""
     },
     {
         "id": "64fdd82f554e4b79be4af21c",
@@ -21,7 +22,8 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/0*uLADSgUDsUxMMarV",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/0*uLADSgUDsUxMMarV",
         "readTime": 8,
-        "publishDate": "2023-Sep-09"
+        "publishDate": "2023-Sep-09",
+        "blogs": ""
     },
     {
         "id": "64fdd82fe63146ff024d9a27",
@@ -33,7 +35,8 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BXcfMU3SbAWzBe1LVvZRug.png",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*BXcfMU3SbAWzBe1LVvZRug.png",
         "readTime": 15,
-        "publishDate": "2023-Sep-08"
+        "publishDate": "2023-Sep-08",
+        "blogs": ""
     },
     {
         "id": "64fdd82fcd1b4d4a5125da25",
@@ -45,6 +48,59 @@
         "images": "https://miro.medium.com/v2/resize:fit:720/1*0xDGBNrA1WtfSfYY3FJOdw.gif",
         "coverImage": "https://miro.medium.com/v2/resize:fit:720/1*0xDGBNrA1WtfSfYY3FJOdw.gif",
         "readTime": 12,
-        "publishDate": "2023-Sep-07"
+        "publishDate": "2023-Sep-07",
+        "blogs": ""
+    },
+    {
+        "id": "65004d0e785920f4d3fa1842",
+        "author": {
+            "name": "Muhammad Shahin",
+            "image": "https://scontent.fdac138-1.fna.fbcdn.net/v/t1.6435-9/128784218_2719783824943563_2871389541956590022_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6GjtyW2ihHQAX-KCwx8&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCvdJiDGZvodtnElPy0cA5Jd55_O1BaY72ArAy3aIBLGA&oe=6527B916"
+        },
+        "title": "What the Difference between props and state:",
+        "images": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "coverImage": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "readTime": 5,
+        "publishDate": "2023-Sep-10",
+        "blogs": "PROPS: The Data is passed from one component to another. It is Immutable (cannot be modified). Props can be used with state and functional components. Props are read-only. STATE: The Data is passed within the component only. It is Mutable ( can be modified). The state can be used only with the state components/class component (Before 16.0). The state is both read and write."
+    },
+    {
+        "id": "65004d0e7302e5529a8f00b8",
+        "author": {
+            "name": "Muhammad Shahin",
+            "image": "https://scontent.fdac138-1.fna.fbcdn.net/v/t1.6435-9/128784218_2719783824943563_2871389541956590022_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6GjtyW2ihHQAX-KCwx8&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCvdJiDGZvodtnElPy0cA5Jd55_O1BaY72ArAy3aIBLGA&oe=6527B916"
+        },
+        "title": "How does useState work?",
+        "images": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "coverImage": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "readTime": 15,
+        "publishDate": "2023-Sep-07",
+        "blogs": "The useState() is a Hook that allows you to have state variables in functional components . so basically useState is the ability to encapsulate local state in a functional component. React has two types of components, one is class components which are ES6 classes that extend from React and the other is functional components. Class components a Component and can have state and lifecycle methods: class Message extends React. The  useState hook is a special function that takes the initial state as an argument and returns an array of two entries.  UseState encapsulate only singular value from the state, for multiple state need to have useState calls. Syntax: The first element is the initial state and the second one is a function that is used for updating the state. const [state, setState] = useState(initialstate) We can also pass a function as an argument if the initial state has to be computed. And the value returned by the function will be used as the initial state."
+    },
+    {
+        "id": "65004d0efafc1fa4bee47de7",
+        "author": {
+            "name": "Muhammad Shahin",
+            "image": "https://scontent.fdac138-1.fna.fbcdn.net/v/t1.6435-9/128784218_2719783824943563_2871389541956590022_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6GjtyW2ihHQAX-KCwx8&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCvdJiDGZvodtnElPy0cA5Jd55_O1BaY72ArAy3aIBLGA&oe=6527B916"
+        },
+        "title": "Purpose of useEffect other than fetching data.",
+        "images": "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
+        "coverImage": "https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
+        "readTime": 12,
+        "publishDate": "2023-Sep-02",
+        "blogs": "useEffect use cases, Running once on mount: fetch API data, Running on state change: validating input field, Running on state change: live filtering, Running on state change: trigger animation on new array value, Running on props change: update paragraph list on fetched API data update, Running on props change: updating fetched API data to get BTC updated price"
+    },
+    {
+        "id": "65004d0e540e0cac23d94758",
+        "author": {
+            "name": "Muhammad Shahin",
+            "image": "https://scontent.fdac138-1.fna.fbcdn.net/v/t1.6435-9/128784218_2719783824943563_2871389541956590022_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6GjtyW2ihHQAX-KCwx8&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCvdJiDGZvodtnElPy0cA5Jd55_O1BaY72ArAy3aIBLGA&oe=6527B916"
+        },
+        "title": "How Does React work?",
+        "images": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1506&q=80",
+        "coverImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1506&q=80",
+        "readTime": 12,
+        "publishDate": "2023-Sep-02",
+        "blogs": "React creates a virtual DOM in memory to update the browser’s DOM. The virtual DOM will try to find the most efficient way to update the browser’s DOM. Browser-DOM-Virtual-DOM Unlike browser DOM elements, React elements are simple objects and are cheap to create. React DOM takes care of updating the DOM to match the React elements. The reason for this is that JavaScript is very fast and it’s worth keeping a DOM tree in it to speed up its processing. Although React was designed to be used in the browser, because of its design allows it to be used on the server with Node.js as well."
     }
 ]

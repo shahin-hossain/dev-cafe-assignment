@@ -3,7 +3,7 @@ import './Content.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Content = ({ blog, bookmarkHandle, spentTimeHandle }) => {
-    const { coverImage, title, author, readTime, publishDate } = blog;
+    const { coverImage, title, author, readTime, publishDate, blogs } = blog;
 
 
     return (
@@ -24,6 +24,7 @@ const Content = ({ blog, bookmarkHandle, spentTimeHandle }) => {
                 </div>
             </div>
             <h2>{title}</h2>
+            <p style={{ textAlign: 'justify' }}>{blogs}</p>
             <a onClick={() => spentTimeHandle(blog)} className='read-mark' style={{ textAlign: 'start', display: 'block', cursor: 'pointer' }}>Mark as read  </a>
         </div>
     );
